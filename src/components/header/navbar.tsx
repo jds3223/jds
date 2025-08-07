@@ -11,7 +11,7 @@ import { FaPhone } from 'react-icons/fa6';
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   return (
-    <nav className="bg-background text-white px-6 flex items-center justify-between border border-white/20 fixed top-0 w-full h-20">
+    <nav className="bg-background text-white px-6 flex items-center justify-between border-b border-white/20 fixed top-0 w-full h-20 z-40">
       {/* Logo */}
       <div className="flex xg:hidden items-center">
         <FiMenu className="cursor-pointer text-2xl" onClick={() => setIsOpen(true)} />
