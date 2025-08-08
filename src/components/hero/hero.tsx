@@ -8,7 +8,7 @@ const Hero = () => {
     <div className='relative h-screen'>
         <Image src='/assets/images/home/hero.webp' alt='hero image' fill className='inset-0 object-cover' sizes='(max-width: 678px) 40vw, 70vw' />
         <div className='bg-background/60 xs:bg-background/50 w-full h-full absolute' />
-        <ContainerFluid className='relative flex items-end pb-20 xs:items-center z-10 h-full w-full'>
+        <ContainerFluid className='relative flex items-end py-20 xs:items-center z-10 h-full w-full'>
             <div className='text-white space-y-4 text-center xs:text-start'>
               <h1 className='text-3xl xsm:text-4xl md:text-5xl lg:text-6xl font-nexa max-w-[450px] md:max-w-[600px] lg:max-w-[750px]'>Invest in Dubai real estate with JDS Elite Properties</h1>
               <p className='text-sm xsm:text-base md:text-lg'>We bring Due Diligence at Your service</p>

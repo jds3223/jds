@@ -49,7 +49,7 @@ const Navbar = () => {
 
       <div className="flex items-center gap-4 h-full">
         <div className='relative w-36 h-full border-e border-white/0 xg:border-white/20'>
-          <Image src='/assets/images/logo.webp' alt='logo' fill className='p-4' />
+          <Image src='/assets/images/logo.webp' alt='logo' fill className='py-4 pe-4' />
         </div>
         <div className="hidden xg:flex items-center gap-6 text-sm">
           {navItems.map((item) => (
