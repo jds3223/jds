@@ -53,7 +53,7 @@ const Navbar = () => {
         </div>
         <div className="hidden xg:flex items-center gap-6 text-sm">
           {navItems.map((item) => (
-            <Link key={item.label} href={item.href} className="hover:text-primary transition xl:px-2">
+            <Link key={item.label} href={item.href} className="hover:text-primary text-lg opacity-90 transition 2xl:px-2">
               {item.label}
             </Link>
           ))}
@@ -61,7 +61,7 @@ const Navbar = () => {
       </div>
 
       {/* Right Icons */}
-      <div className="hidden xg:flex items-center gap-6 text-sm">
+      <div className="hidden xg:flex items-center gap-4 2xl:gap-6 text-sm">
         <FaWhatsapp className="text-primary cursor-pointer text-2xl" />
         <a href="#" className="text-primary hover:underline">FOLLOW US</a>
         <a href="#" className="text-primary hover:underline">CALL US</a>
