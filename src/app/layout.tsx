@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
-import "./styles/globals.css";
+import "./../styles/globals.css";
 import PathnameWrapper from "@/components/PathnameWrapper";
 
 const lato = Lato({
