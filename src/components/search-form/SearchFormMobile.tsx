@@ -5,7 +5,6 @@ import { Select } from "antd";
 import type { SelectProps } from "antd";
 
 import { IoSearchSharp } from "react-icons/io5";
-import { IoMdArrowDropdown } from "react-icons/io";
 
 interface SearchFormValues {
    propertyStatus: string;
