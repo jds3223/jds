@@ -3,7 +3,7 @@ import { Formik, Form, Field } from "formik";
 import { useState } from "react";
 import { Select, Slider } from "antd";
 import type { SelectProps } from "antd";
-import "antd/dist/reset.css";
+
 import Container from "../common/Container";
 
 interface FormTypes {

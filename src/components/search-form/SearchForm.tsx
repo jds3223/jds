@@ -3,7 +3,7 @@ import { Formik, Form } from "formik";
 import { useState } from "react";
 import { Select } from "antd";
 import type { SelectProps } from "antd";
-import "antd/dist/reset.css";
+
 import { MdKeyboardArrowDown } from "react-icons/md";
 
 interface SearchFormValues {

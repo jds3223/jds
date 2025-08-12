@@ -3,7 +3,7 @@ import { Formik, Form } from "formik";
 import { useState } from "react";
 import { Select } from "antd";
 import type { SelectProps } from "antd";
-import "antd/dist/reset.css";
+
 import { IoSearchSharp } from "react-icons/io5";
 import { IoMdArrowDropdown } from "react-icons/io";
 
