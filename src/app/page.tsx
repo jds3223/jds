@@ -1,4 +1,5 @@
 import ExclusiveCard from "@/components/exclusives/ExclusiveCard";
+import RealEstateExperts from "@/components/exclusives/RealEstateExperts";
 import RealEstateOptions from "@/components/exclusives/RealEstateOptions";
 import Hero from "@/components/hero/hero";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <Hero />
       <ExclusiveCard />
       <RealEstateOptions />
+      <RealEstateExperts />
     </>
   );
 }

@@ -17,7 +17,7 @@ export const properties: Property[] = [
       "Location on Marasi Drive provides quick access to main road arteries. 20-minute walk to Burj Khalifa and the Dubai Mall. Jumeirah Beach and Dubai International Airport are just 15 minutes away.",
     handoverDate: "June 30, 2024"
   },
-    {
+  {
     id: 1,
     title: "The Terraces Marasi Drive",
     image: "/assets/images/exclusives/SEkrPeeIie.webp",
@@ -33,7 +33,7 @@ export const properties: Property[] = [
       "Location on Marasi Drive provides quick access to main road arteries. 20-minute walk to Burj Khalifa and the Dubai Mall. Jumeirah Beach and Dubai International Airport are just 15 minutes away.",
     handoverDate: "June 30, 2024"
   },
-    {
+  {
     id: 1,
     title: "The Terraces Marasi Drive",
     image: "/assets/images/exclusives/SEkrPeeIie.webp",
@@ -49,7 +49,7 @@ export const properties: Property[] = [
       "Location on Marasi Drive provides quick access to main road arteries. 20-minute walk to Burj Khalifa and the Dubai Mall. Jumeirah Beach and Dubai International Airport are just 15 minutes away.",
     handoverDate: "June 30, 2024"
   },
-    {
+  {
     id: 1,
     title: "The Terraces Marasi Drive",
     image: "/assets/images/exclusives/SEkrPeeIie.webp",
@@ -72,16 +72,32 @@ export const options = [
   {
     label: 'BUY',
     image: '/assets/images/exclusives/SEkrPeeIie.webp',
-    describtion:'With a comprehensive portfolio of properties and countless offers, we cover all your real estate needs.'
+    describtion: 'With a comprehensive portfolio of properties and countless offers, we cover all your real estate needs.'
   },
   {
     label: 'RENT',
     image: '/assets/images/exclusives/SEkrPeeIie.webp',
-    describtion:'With a comprehensive portfolio of properties and countless offers, we cover all your real estate needs.'
+    describtion: 'With a comprehensive portfolio of properties and countless offers, we cover all your real estate needs.'
   },
   {
     label: 'SELL',
     image: '/assets/images/exclusives/SEkrPeeIie.webp',
-    describtion:'With a comprehensive portfolio of properties and countless offers, we cover all your real estate needs.'
+    describtion: 'With a comprehensive portfolio of properties and countless offers, we cover all your real estate needs.'
   },
 ];
+
+export const realEstateInfo = {
+  title: "REAL ESTATE EXPERTS",
+  image: "/assets/images/exclusives/SEkrPeeIie.webp",
+  description:
+    "We understand the fact that modern people strive for maximum comfort.",
+  paragraph:
+    "A harmonious environment, communication with professionals, accurate and timely information, commitment, reliable and convenient technological solutions that save the resources that are important to them.",
+  implementation: "We have implemented all these in JDS Elite Properties",
+  buttonText: "Enquire now",
+  stats: [
+    { value: "5000+", label: "OFFERS IN THE DATABASE" },
+    { value: "30+", label: "LANGUAGES" },
+    { value: "500+", label: "SPECIALISTS" },
+  ],
+};

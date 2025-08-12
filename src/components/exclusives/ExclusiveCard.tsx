@@ -34,9 +34,9 @@ export default function ExclusiveCard() {
               <button
                 key={loc}
                 onClick={() => setActiveLocation(loc)}
-                className={`pb-2 text-sm xs:text-base md:text-lg font-nexa px-2 whitespace-nowrap ${activeLocation === loc
+                className={`pb-2 text-sm xs:text-base md:text-lg font-nexa px-2 whitespace-nowrap cursor-pointer ${activeLocation === loc
                   ? "border-b-2 border-primary !text-primary"
-                  : "text-gray-400 hover:text-white"
+                  : "text-gray-500 hover:text-primary"
                   }`}
               >
                 {loc}
@@ -58,13 +58,13 @@ export default function ExclusiveCard() {
                     <h4 className="uppercase tracking-wide border-gradient mb-2 font-nexa text-sm xsm:text-base">
                       {feature.title}
                     </h4>
-                    <p className="text-gray-300 text-xs xsm:text-sm">{feature.description}</p>
+                    <p className="text-xs xsm:text-sm">{feature.description}</p>
                   </div>
                 ))}
               </div>
 
-              <p className="hidden xs:block mt-6 text-gray-300 text-sm leading-relaxed">{activeProperty.description}</p>
-              <p className="hidden xs:block mt-2 text-gray-300 text-sm">
+              <p className="hidden xs:block mt-6 text-sm leading-relaxed">{activeProperty.description}</p>
+              <p className="hidden xs:block mt-2 text-sm">
                 <span className="font-semibold">Handover date:</span> {activeProperty.handoverDate}
               </p>
 
@@ -94,13 +94,13 @@ export default function ExclusiveCard() {
               />
               <div className="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/100 to-black/30 p-4">
                 <h3 className="text-lg font-medium">{activeProperty.title}</h3>
-                <div className="flex items-center text-sm text-gray-300">
+                <div className="flex items-center text-sm ">
                   <CiLocationOn className="w-4 h-4 mr-1" /> {activeProperty.locationLabel}
                 </div>
               </div>
             </div>
-             <p className="block xs:hidden text-gray-300 text-xs  leading-relaxed">{activeProperty.description}</p>
-            <p className="block xs:hidden text-gray-300 text-xs">
+             <p className="block xs:hidden text-xs leading-relaxed">{activeProperty.description}</p>
+            <p className="block xs:hidden text-xs">
                 <span className="font-semibold">Handover date:</span> {activeProperty.handoverDate}
               </p>
              <div className="flex xs:hidden items-center gap-4">
